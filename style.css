@@ -1,0 +1,798 @@
+/* ################################################################### */
+/* 				Setting Fonts                                          */
+/* ################################################################### */
+/* ------------------------------------------------------------------- */
+/*         OpenSans                                                    */
+/* Die Eigenschaft font-family bestimmt die zu verwendende Schriftart. */
+/* Die Eigenschaft font-style bestimmt die Neigung der Schrift.        */
+/* Die Eigenschaft font-size bestimmt die zu verwendende Schriftgröße. */
+/* Die Eigenschaft font-weight bestimmt die zu verwendende „Dicke"     */
+/*     der Schrift.                                                    */
+/* ------------------------------------------------------------------- */
+/* Änderungen                                                          */
+/*	2023 10 28  Sektion für <datum> xxx </datum> eingeführt            */
+/*  2025 12 22  Font Dateien neu aufgenommen. El_Messiri nicht in      */
+/*              Nutzung.                                               */
+/*                                                                     */
+/*                                                                     */
+/*                                                                     */
+/*                                                                     */
+/*                                                                     */
+/* ................................................................... */
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('fonts/OpenSans-Regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'open_sansitalic';
+    src: url('fonts/OpenSans-Italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* ................................................................... */
+/* Light                                                               */
+/* ................................................................... */
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('fonts/OpenSans-Light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'open_sanslight_italic';
+    src: url('fonts/OpenSans-LightItalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* ................................................................... */
+/* SemiBold                                                            */
+/* ................................................................... */
+@font-face {
+    font-family: 'open_sanssemibold';
+    src: url('fonts/OpenSans-Semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'open_sanssemibold_italic';
+    src: url('fonts/OpenSans-SemiboldItalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* ................................................................... */
+/* Bold                                                                */
+/* ................................................................... */
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('fonts/OpenSans-Bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'open_sansbold_italic';
+    src: url('fonts/OpenSans-BoldItalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* ................................................................... */
+/* ExtraBold                                                           */
+/* ................................................................... */
+@font-face {
+    font-family: 'open_sansextrabold';
+    src: url('fonts/OpenSans-ExtraBold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'open_sansextrabold_italic';
+    src: url('fonts/OpenSans-ExtraBoldItalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* ------------------------------------------------------------------- */
+/*         Exo                                                         */
+/* Die Eigenschaft font-family bestimmt die zu verwendende Schriftart. */
+/* Die Eigenschaft font-style bestimmt die Neigung der Schrift.        */
+/* Die Eigenschaft font-size bestimmt die zu verwendende Schriftgröße. */
+/* Die Eigenschaft font-weight bestimmt die zu verwendende „Dicke"     */
+/*     der Schrift.                                                    */
+/* ------------------------------------------------------------------- */
+/* Regular                                                             */
+/* ................................................................... */
+@font-face {
+    font-family: 'exo_2regular';
+    src: url('fonts/Exo2-Regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'exo_2italic';
+    src: url('fonts/Exo2-Italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'exo_2bold';
+    src: url('fonts/Exo2-Bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'exo_2bold_italic';
+    src: url('fonts/Exo2-BoldItalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* ................................................................... */
+/* ExtraLight                                                          */
+/* ................................................................... */
+@font-face {
+    font-family: 'exo_2extra_light';
+    src: url('fonts/Exo2-ExtraLight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'exo_2extra_light_italic';
+    src: url('fonts/Exo2-ExtraLightItalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* ................................................................... */
+/* Light                                                               */
+/* ................................................................... */
+@font-face {
+    font-family: 'exo_2light';
+    src: url('fonts/Exo2-Light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'exo_2light_italic';
+    src: url('fonts/Exo2-LightItalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* ................................................................... */
+/* Medium                                                              */
+/* ................................................................... */
+@font-face {
+    font-family: 'exo_2medium';
+    src: url('fonts/Exo2-Medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'exo_2medium_italic';
+    src: url('fonts/Exo2-MediumItalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* ................................................................... */
+/* SemiBold                                                            */
+/* ................................................................... */
+@font-face {
+    font-family: 'exo_2semi_bold';
+    src: url('fonts/Exo2-SemiBold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'exo_2semi_bold_italic';
+    src: url('fonts/Exo2-SemiBoldItalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* ................................................................... */
+/* ExtraBold                                                           */
+/* ................................................................... */
+@font-face {
+    font-family: 'exo_2extra_bold';
+    src: url('fonts/Exo2-ExtraBold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'exo_2extra_bold_italic';
+    src: url('fonts/Exo2-ExtraBoldItalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* ................................................................... */
+/* Thin                                                                */
+/* ................................................................... */
+@font-face {
+    font-family: 'exo_2thin';
+    src: url('fonts/Exo2-Thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'exo_2thin_italic';
+    src: url('fonts/Exo2-ThinItalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* ................................................................... */
+/* Black                                                               */
+/* ................................................................... */
+@font-face {
+    font-family: 'exo_2black';
+    src: url('fonts/Exo2-Black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'exo_2black_italic';
+    src: url('fonts/Exo2-BlackItalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* ------------------------------------------------------------------- */
+/*         El-Messiri Arabic Font                                      */
+/* Die Eigenschaft font-family bestimmt die zu verwendende Schriftart. */
+/* Die Eigenschaft font-style bestimmt die Neigung der Schrift.        */
+/* Die Eigenschaft font-size bestimmt die zu verwendende Schriftgröße. */
+/* Die Eigenschaft font-weight bestimmt die zu verwendende „Dicke"     */
+/*     der Schrift.                                                    */
+/* ------------------------------------------------------------------- */
+@font-face {
+  font-family: "El_Messiri";
+  src: url(fonts/elmessiri-regular.otf);
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "El_Messiri-Bold";
+  src: url(fonts/elmessiri-bold.otf);
+  font-style: normal;
+  font-weight: bold;
+}
+/* ................................................................... */
+/* SemiBold                                                           */
+/* ................................................................... */
+@font-face {
+  font-family: "El_Messiri-SemiBold";
+  src: url(fonts/elmessiri-semibold.otf);
+  font-style: normal;
+  font-weight: normal;
+}
+/* ................................................................... */
+/* Medium                                                              */
+/* ................................................................... */
+@font-face {
+  font-family: "El_Messiri-Medium";
+  src: url(fonts/elmessiri-medium.otf);
+  font-style: normal;
+  font-weight: normal;
+}
+/* ------------------------------------------------------------------- */
+/*         KaushanScript                                               */
+/* Die Eigenschaft font-family bestimmt die zu verwendende Schriftart. */
+/* Die Eigenschaft font-style bestimmt die Neigung der Schrift.        */
+/* Die Eigenschaft font-size bestimmt die zu verwendende Schriftgröße. */
+/* Die Eigenschaft font-weight bestimmt die zu verwendende „Dicke"     */
+/*     der Schrift.                                                    */
+/* ------------------------------------------------------------------- */
+@font-face {
+  font-family: "KaushanScript";
+  src: url(fonts/KaushanScript-Regular.otf);
+  font-style: normal;
+  font-weight: normal;
+}
+/* ################################################################### */
+/* 				Setting bodywork                                       */
+/* ################################################################### */
+/* ------------------------------------------------------------------- */
+/*         Basic Setup                                                 */
+/* ------------------------------------------------------------------- */
+/* Wenn du im Body eine Fontsize setzt, wirkt sich diese als Basisgröße*/
+/* für alle weiteren Schriftgrößen aus. Also: Kleiner Body, eine       */
+/* relativ kleinere Überschrift!                                       */
+/* ------------------------------------------------------------------- */
+body {
+  max-width: 1200px; /* Set maximum width */  
+  margin: 2 ;
+  font-family: "exo_2light", "open_sansregular", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  text-align: left;
+  font-size: 1em;
+  line-height: 1.2em;
+}
+/* ------------------------------------------------------------------- */
+/*         Kopfzeilen                                                   */
+/* ------------------------------------------------------------------- */
+h1 {
+  font-family: "exo_2regular", sans-serif;
+  font-size: 2.7em;
+  /* font-style: normal; */
+  font-weight: normal;
+  text-align: left;
+  color: inherit;
+  border-bottom: solid thin black;
+  text-shadow: grey 3px 2px 4px;
+  line-height: 120%;
+}
+h2 {
+  font-family: "exo_2light", sans-serif;
+  font-size: 2em;
+  font-style: normal;
+  /* font-weight: lighter; */
+  font-weight: normal;
+  text-align: left;
+  text-decoration: none;
+  border-bottom: solid thin grey;
+  text-shadow: grey 3px 2px 4px;
+  line-height: 120%;
+}
+h3 {
+  font-family: "exo_2light", sans-serif;
+  font-size: 1.5em;
+  font-style: normal;
+  text-align: left;
+  font-weight: normal;
+  /* font-weight: lighter; */
+  text-shadow: grey 2px 1px 3px;
+  border-bottom: dashed thin black;
+  line-height: 120%;
+}
+h4 {
+  font-family: "exo_2light", sans-serif;
+  font-size: 1.3em;
+  /* font-style: normal; */
+  /*  font-weight: lighter;*/
+  font-weight: normal;
+  text-align: left;
+  font-variant: small-caps;
+  border-bottom: dotted thin lightgrey;
+  line-height: 120%;
+}
+h5 {
+  font-family: "exo_2light", sans-serif;
+  font-size: 1.2em;
+  text-align: left;
+  font-variant: small-caps;
+  font-weight: normal;
+  border-bottom: dotted thin lightgrey;
+  line-height: 120%;
+}
+h6 {
+  font-family: "exo_2light", sans-serif;
+  font-size: 1.1em;
+  text-align: left;
+  font-variant: small-caps;
+  font-weight: normal;
+  border-bottom: dotted thin lightgrey;
+  line-height: 120%;
+}
+/* ------------------------------------------------------------------- */
+/*         Verschiedene Textanzeigen                                   */
+/* ------------------------------------------------------------------- */
+/* The <a> tag defines a hyperlink, which is used to link from one page*/
+/* to another.                                                         */
+/* Im ePub wird es im wesentlichen dafür verwendet um                  */
+/*   a) Links nach außen                                               */
+/*   b) Index Marker                                                   */
+/* zu definieren                                                       */
+/* Markiere die color rot um alle Index marks im Text zu sehen. Das mag*/
+/* gerade während des Edits ganz gut sein um den Überblick zu behalten */
+/* ------------------------------------------------------------------- */
+a {
+  color: inherit;
+  text-decoration: inherit;
+  cursor: text;
+}
+a:link {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.sigil_index_marker {
+  color: inherit;
+  text-decoration: none;
+  /* cursor: default; */
+  cursor: text;
+}
+hr {
+  height: 4px;
+  background: grey;
+  border-bottom: solid black;
+}
+em {
+  font-family: "exo_2extra_bold", "open_sansextrabold", sans-serif;
+  text-align: left;
+  font-style: normal;
+  font-weight: normal;
+}
+blockquote {
+  padding: 0;
+  margin-left: 40px;
+}
+/* ------------------------------------------------------------------- */
+/* Einbinden als <highlight> ... </highlight>                          */
+/* ------------------------------------------------------------------- */
+highlight {
+  font-family: "KaushanScript", serif;
+  line-height: 120%;
+  margin-top: 0.4em;
+  font-size: 1.4em;
+  font-style: normal;
+  color: red;
+  /* text-shadow: grey 1px 2px 2px; */
+}
+/* ------------------------------------------------------------------- */
+/* Einbinden als <backyellow> ... </backyellow>                          */
+/* ------------------------------------------------------------------- */
+backyellow {
+  background-color: yellow;
+}
+/* ------------------------------------------------------------------- */
+/* Einbinden als <backgrey-blue> ... </backgrey-blue>                          */
+/* ------------------------------------------------------------------- */
+backgrey-blue {
+  background-color: #D9E1F2;
+}
+/* ------------------------------------------------------------------- */
+/* Einbinden als <backgreen> ... </backgreen>                          */
+/* ------------------------------------------------------------------- */
+backgreen {
+  background-color: #48ff00;
+}
+
+/* ------------------------------------------------------------------- */
+/* Einbinden als <datum> xxx </datum>                                  */
+/* ------------------------------------------------------------------- */
+datum {
+  font-family: "exo_2light", serif;
+  line-height: 120%;
+  font-size: 1.2em;
+  color: DarkBlue;
+  text-shadow: grey 1px 2px 2px;
+}
+/* ------------------------------------------------------------------- */
+/*         Darstellung von Bildern                                     */
+/* ------------------------------------------------------------------- */
+/* IMG ist wichtig um die Größe des Bildes von seinem eigentlichen Maß */
+/* auf das Maß der Anzeige zu begrenzen. Also:                         */
+/*Bildbreite 1440                                                      */
+/*      Anzeigebreite 900                                              */
+/*      Bild fällt aus dem Display mit 540px                           */
+/* Mit 100% passt sich das Bild in die Anzeige bei voller Breite ein   */
+/* ------------------------------------------------------------------- */
+img {
+  display: inline-block;
+  max-width: 100%;
+}
+figure {
+  /* Hiermit setze ich, wie sich das Bild im Text einfügt */
+  /* Das Zusammenhalten von Bild und Bildlegende unter iBooks: Eine klassische Layout-Anforderung wird durch Kombination von „page-break-inside: avoid;“ und „display: inline-block;“ realisiert. */
+  /* Aus: https://www.dpc-consulting.org/epub-praxis-seitenumbruche-steuern-und-elemente-zusammenhalten/ */
+  page-break-inside: avoid;
+  display: inline-block;
+  margin-left: 0;
+  margin-right: 0;
+}
+/* 0.8em relativ zum .body !
+ Ein kleiner Einzug erhöht die Erkennung der Bildunterschrift
+ Ein kleiner Abstand zum Bild oben und ein etwas größerer nach unten
+ erhöht die Lesbarkeit.
+*/
+.figure {
+  /* display: left; */
+  margin-top: 0.2em;
+  margin-bottom: 0em;
+  margin-left: 2em;
+  margin-right: 2em;
+  font-size: 0.8em;
+  font-style: normal;
+  color: DarkBlue;
+  text-align: left;
+}
+/* ------------------------------------------------------------------- */
+/*         Darstellung von Tabellen                                    */
+/* ------------------------------------------------------------------- */
+table, th, td {
+  border: 1px solid;
+  border-collapse: collapse;
+  text-align: left;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+  font-size: 1em;
+  white-space: normal;
+  word-break: normal;
+  /* overflow-wrap: anywhere; */
+  /* overflow: hidden;  */
+  /* text-overflow: ellipsis;  */
+}
+th {
+  background-color: #d0d4d9;
+}
+/* ------------------------------------------------------------------- */
+/*         Darstellung von Links                                       */
+/* ------------------------------------------------------------------- */
+.link {
+  -webkit-text-fill-color: rgb(7, 127, 248);
+  background-color: lightgrey;
+  border-radius: 15px;
+  display: inline-block;
+  font-size: 1em;
+  line-height: normal;
+  margin-bottom: 0.2em;
+  text-indent: 0;
+  /* text-transform: uppercase; */
+  padding: 5px 10px;
+}
+.link_map_light_blue {
+  -webkit-text-fill-color: red;
+  background-color: lightblue;
+  border-radius: 15px;
+  display: inline-block;
+  font-size: 1em;
+  line-height: normal;
+  margin-bottom: 0.2em;
+  text-indent: 0;
+  /* text-transform: uppercase; */
+  padding: 5px 10px;
+}
+
+/* ------------------------------------------------------------------- */
+/*         Buttons                                                     */
+/* ------------------------------------------------------------------- */
+
+.button {
+  display: inline-block;
+  padding: 8px 15px;
+  background-color: #e0e0e0; /* Hellgrau */
+  color: #000000;
+  text-decoration: none; /* Entfernt den Unterstrich */
+  text-decoration-line: none; 
+  text-decoration-style: dotted; 
+  border: 1px solid #999;
+  border-radius: 4px;
+  font-size: 0.9em;
+  margin: 5px 0;
+  cursor: pointer;
+}
+.button:hover {
+    background-color: yellow;
+}
+
+.button1 {
+  background-color: yellow;
+  color: black;
+  border: 2px solid #04AA6D;
+}
+
+.button1:hover {
+  background-color: lightcyan;
+  color: black;
+}
+
+/* CSS für den "Button"-Link im E-Book */
+.btn-back {
+    display: inline-block;
+    background-color: #a9a731; /* Deine Button-Farbe */
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.btn-back:active {
+    background-color: #ddd;
+}
+
+
+/* ------------------------------------------------------------------- */
+/*         Meine Gallery Darstellung für Lightbox2                     */
+/* ------------------------------------------------------------------- */
+.lb-loader,
+.lightbox {
+    text-align: center;
+    line-height: 0;
+    position: absolute;
+    left: 0
+}
+
+body.lb-disable-scrolling {
+    overflow: hidden
+}
+
+.lightboxOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    background-color: #000;
+    filter: alpha(Opacity=80);
+    opacity: .8;
+    display: none
+}
+
+.lightbox {
+    width: 100%;
+    z-index: 10000;
+    font-weight: 400;
+    outline: 0
+}
+
+.lightbox .lb-image {
+    display: block;
+    height: auto;
+    max-width: inherit;
+    max-height: none;
+    border-radius: 3px;
+    border: 4px solid #fff
+}
+
+.lightbox a img {
+    border: none
+}
+
+.lb-outerContainer {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    border-radius: 4px;
+    background-color: #fff
+}
+
+.lb-outerContainer:after {
+    content: "";
+    display: table;
+    clear: both
+}
+
+.lb-loader {
+    top: 43%;
+    height: 25%;
+    width: 100%
+}
+
+.lb-cancel {
+    display: block;
+    width: 32px;
+    height: 32px;
+    margin: 0 auto;
+    background: url(lb-images/loading.gif) no-repeat
+}
+
+.lb-nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 10
+}
+
+.lb-container>.nav {
+    left: 0
+}
+
+.lb-nav a {
+    outline: 0;
+    background-image: url(data:image/gif;base64,R0lGODlhAQABAPAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==)
+}
+
+.lb-next,
+.lb-prev {
+    height: 100%;
+    cursor: pointer;
+    display: block
+}
+
+.lb-nav a.lb-prev {
+    width: 34%;
+    left: 0;
+    float: left;
+    background: url(lb-images/prev.png) left 48% no-repeat;
+    filter: alpha(Opacity=0);
+    opacity: 0;
+    -webkit-transition: opacity .6s;
+    -moz-transition: opacity .6s;
+    -o-transition: opacity .6s;
+    transition: opacity .6s
+}
+
+.lb-nav a.lb-prev:hover {
+    filter: alpha(Opacity=100);
+    opacity: 1
+}
+
+.lb-nav a.lb-next {
+    width: 64%;
+    right: 0;
+    float: right;
+    background: url(lb-images/next.png) right 48% no-repeat;
+    filter: alpha(Opacity=0);
+    opacity: 0;
+    -webkit-transition: opacity .6s;
+    -moz-transition: opacity .6s;
+    -o-transition: opacity .6s;
+    transition: opacity .6s
+}
+
+.lb-nav a.lb-next:hover {
+    filter: alpha(Opacity=100);
+    opacity: 1
+}
+
+.lb-dataContainer {
+    margin: 0 auto;
+    padding-top: 5px;
+    width: 100%;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px
+}
+
+.lb-dataContainer:after {
+    content: "";
+    display: table;
+    clear: both
+}
+
+.lb-data {
+    padding: 0 4px;
+    color: #ccc
+}
+
+.lb-data .lb-details {
+    width: 85%;
+    float: left;
+    text-align: left;
+    line-height: 1.1em
+}
+
+.lb-data .lb-caption {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 1em
+}
+
+.lb-data .lb-caption a {
+    color: #4ae
+}
+
+.lb-data .lb-number {
+    display: block;
+    clear: left;
+    padding-bottom: 1em;
+    font-size: 12px;
+    color: #999
+}
+
+.lb-data .lb-close {
+    display: block;
+    float: right;
+    width: 30px;
+    height: 30px;
+    background: url(lb-images/close.png) top right no-repeat;
+    text-align: right;
+    outline: 0;
+    filter: alpha(Opacity=70);
+    opacity: .7;
+    -webkit-transition: opacity .2s;
+    -moz-transition: opacity .2s;
+    -o-transition: opacity .2s;
+    transition: opacity .2s
+}
+
+.lb-data .lb-close:hover {
+    cursor: pointer;
+    filter: alpha(Opacity=100);
+    opacity: 1
+}

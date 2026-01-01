@@ -1,0 +1,19 @@
+{
+    "metadata": {
+        "title": "Dein Buchtitel - Wert im JSON individuell definieren ",
+        "author": "Name des Authors",
+        "language": "de",
+        "description": "Buchbeschreibung. Wert im JSON individuell definieren ",
+        "publisher": "Name des Authors",
+        "rights": "Alle Rechte vorbehalten",
+        "subject": "Marokko, Motorradreise"
+    },
+    "config": {
+        "source_html": "index.html",
+        "source_css": "style.css",
+        "folder_fonts": "fonts",
+        "folder_bilder": "bilder",
+        "cover_image": "cover.jpg",
+        "output_epub": "Reisebegleiter.epub"
+    }
+}
